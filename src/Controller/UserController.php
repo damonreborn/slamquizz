@@ -14,7 +14,7 @@ use Symfony\Component\HttpFoundation\Response;
 class UserController extends AbstractController{
 
 /**
- * @Route("/index", name="default_user")
+ * @Route("/index", name="index_user")
  */
 
 public function user()
