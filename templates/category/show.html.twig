@@ -12,7 +12,7 @@
                 <td>{{ category.id }}</td>
             </tr>
             <tr>
-                <th>Shortname</th>
+                <th>Shortname</th>          
                 <td>{{ category.shortname }}</td>
             </tr>
             <tr>
@@ -22,9 +22,9 @@
         </tbody>
     </table>
 
-    <a href="{{ path('category_index') }}">back to list</a>
+    <a class="btn btn-outline-success" href="{{ path('category_index') }}">back to list</a>
 
-    <a href="{{ path('category_edit', {'id': category.id}) }}">edit</a>
+    <a class="btn btn-outline-success" href="{{ path('category_edit', {'id': category.id}) }}">edit</a>
 
     {{ include('category/_delete_form.html.twig') }}
 {% endblock %}
