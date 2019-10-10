@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Acceuil</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Catégorie</target>
+      </trans-unit>
+      <trans-unit id="dQgbWT0" resname="Disabled">
+        <source>Disabled</source>
+        <target>Désactiver</target>
+      </trans-unit>
+      <trans-unit id="ZM.xMZ0" resname="Action">
+        <source>Action</source>
+        <target>Action</target>
+      </trans-unit>
+      <trans-unit id="wvqtrho" resname="Another action">
+        <source>Another action</source>
+        <target>Autres Actions</target>
+      </trans-unit>
+      <trans-unit id="RDzxF2T" resname="Something else here">
+        <source>Something else here</source>
+        <target>Quelquechose d'autre ici</target>
+      </trans-unit>
+      <trans-unit id="ScJmuqq" resname="Search">
+        <source>Search</source>
+        <target>Recherche</target>
+      </trans-unit>
+      <trans-unit id="W1k4Wr7" resname="Welcome !">
+        <source>Welcome !</source>
+        <target>Bienvenue !</target>
+      </trans-unit>
+      <trans-unit id="eorRhid" resname="On comprend pas tout, mais en tout cas ça fonctionne.°^°)/  07/10/2019 Florian MORTREUX">
+        <source>On comprend pas tout, mais en tout cas ça fonctionne.°^°)/  07/10/2019 Florian MORTREUX</source>
+        <target>On comprend pas tout, mais en tout cas ça fonctionne.°^°)/  07/10/2019 Florian MORTREUX</target>
+      </trans-unit>
+      <trans-unit id="8sfEtPH" resname="Users Index">
+        <source>Users Index</source>
+        <target>Liste d'Utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="c7ENjq8" resname="User Index:">
+        <source>User Index:</source>
+        <target>Liste d'Utilisateurs:</target>
+      </trans-unit>
+      <trans-unit id="DZO3ehf" resname="Edit Category">
+        <source>Edit Category</source>
+        <target>Editer Catégorie</target>
+      </trans-unit>
+      <trans-unit id="U0M9PNE" resname="back to list">
+        <source>back to list</source>
+        <target>Retourner a la liste</target>
+      </trans-unit>
+      <trans-unit id="xo05DSt" resname="Category index">
+        <source>Category index</source>
+        <target>Liste de Catégories</target>
+      </trans-unit>
+      <trans-unit id="D5lam8." resname="no records found">
+        <source>no records found</source>
+        <target>Aucune entrée trouvé</target>
+      </trans-unit>
+      <trans-unit id="nz33U6Q" resname="Create new">
+        <source>Create new</source>
+        <target>Créer</target>
+      </trans-unit>
+      <trans-unit id="Ogh45Pp" resname="New Category">
+        <source>New Category</source>
+        <target>Nouvelle Catégorie</target>
+      </trans-unit>
+      <trans-unit id="W6joEsF" resname="Create new Category">
+        <source>Create new Category</source>
+        <target>Créer nouvelle Catégorie</target>
+      </trans-unit>
+      <trans-unit id="JiEhxTc" resname="edit">
+        <source>edit</source>
+        <target>Editer</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="gI9ckMI" resname="You should not be here!">
+        <source>You should not be here!</source>
+        <target>Tu ne devrait pas être ici !</target>
+      </trans-unit>
+      <trans-unit id="GF_NsyJ" resname="Hello">
+        <source>Hello</source>
+        <target>Bonjour</target>
+      </trans-unit>
+      <trans-unit id="e8ajuMI" resname="This friendly message is coming from:">
+        <source>This friendly message is coming from:</source>
+        <target>Se message amicale viens de :</target>
+      </trans-unit>
+      <trans-unit id="_43haIJ" resname="Your controller at">
+        <source>Your controller at</source>
+        <target>Ton controller en </target>
+      </trans-unit>
+      <trans-unit id="rPGZ2.r" resname="Your template at">
+        <source>Your template at</source>
+        <target>Ton template en </target>
+      </trans-unit>
+      <trans-unit id="6Q3ypTV" resname="Users List">
+        <source>Users List</source>
+        <target>Liste d'Utilisateurs</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

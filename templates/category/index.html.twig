@@ -3,7 +3,7 @@
 {% block title %}Category index{% endblock %}
 
 {% block body %}
-    <h1>Category index</h1>
+    <h1>{% trans %}Category index{% endtrans %}</h1>
 
     <table class="table">
         <thead class="thead-dark">
@@ -27,11 +27,11 @@
             </tr>
         {% else %}
             <tr>
-                <td colspan="4">no records found</td>
+                <td colspan="4">{% trans %}no records found{% endtrans %}</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-    <a  class="btn btn-outline-success" href="{{ path('category_new') }}">Create new</a>
+    <a  class="btn btn-outline-success" href="{{ path('category_new') }}">{% trans %}Create new{% endtrans %}</a>
 {% endblock %}

@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello DefaultController!{% endblock %}
+{% block title %}{% trans %}You should not be here!{% endtrans %}{% endblock %}
 
 {% block body %}
 <style>
@@ -9,16 +9,16 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <h1>{% trans %}Hello {% endtrans %}{{ controller_name }}! ✅</h1>
 
-    This friendly message is coming from:
+    {% trans %}This friendly message is coming from:{% endtrans %}
     <ul>
-        <li>Your controller at <code><a href="{{ 'C:/wamp64/www/slamquizz/src/Controller/DefaultController.php'|file_link(0) }}">src/Controller/DefaultController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/wamp64/www/slamquizz/templates/default/index.html.twig'|file_link(0) }}">templates/default/index.html.twig</a></code></li>
+        <li>{% trans %}Your controller at{% endtrans %} <code><a href="{{ 'C:/wamp64/www/slamquizz/src/Controller/DefaultController.php'|file_link(0) }}">src/Controller/DefaultController.php</a></code></li>
+        <li>{% trans %}Your template at{% endtrans %} <code><a href="{{ 'C:/wamp64/www/slamquizz/templates/default/index.html.twig'|file_link(0) }}">templates/default/index.html.twig</a></code></li>
         <button class="btn btn-outline-success">Se connecter</button>
     </ul>
     <ul>
-        <li><a href="{{ url('index_user') }}">Liste des utilisateurs</li>
+        <li><a href="{{ url('index_user') }}">{% trans %}Users List{% endtrans %}</li>
     </ul>
 </div>
 {% endblock %}
