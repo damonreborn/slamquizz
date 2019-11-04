@@ -7,7 +7,7 @@
     <body>
       <trans-unit id="OnhpU4i" resname="Home">
         <source>Home</source>
-        <target>Acceuil</target>
+        <target>Accueil</target>
       </trans-unit>
       <trans-unit id="KSwG8AR" resname="Category">
         <source>Category</source>
@@ -108,6 +108,42 @@
       <trans-unit id="6Q3ypTV" resname="Users List">
         <source>Users List</source>
         <target>Liste d'Utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Se Connecter</target>
+      </trans-unit>
+      <trans-unit id="yjfUVOx" resname="Do you need to check the Instruction Index and the Intelligence level of your students?">
+        <source>Do you need to check the Instruction Index and the Intelligence level of your students?</source>
+        <target>Besoin de vérifier l'indice d'Instruction et le degré d'Intelligence de vos élèves ?</target>
+      </trans-unit>
+      <trans-unit id="qi8Lwec" resname="This is the tool you need! SlamQuizz is a simple and free online QCM software.">
+        <source>This is the tool you need! SlamQuizz is a simple and free online QCM software.</source>
+        <target>Voici l'outil qu'il vous faut ! SlamQuizz est un logiciel de QCM en ligne simple et gratuit.</target>
+      </trans-unit>
+      <trans-unit id="PTd66RD" resname="Feature">
+        <source>Feature</source>
+        <target>Fonctionnalités</target>
+      </trans-unit>
+      <trans-unit id="lqwJOTL" resname="Interactive and motivating content to teach them the joy of &quot;Learning&quot;">
+        <source>Interactive and motivating content to teach them the joy of "Learning"</source>
+        <target>Contenu interactif et motivant pour leurs apprendre la joie "D'apprendre"</target>
+      </trans-unit>
+      <trans-unit id="zqFXNt." resname="Automatic Notation (Because you have better things to do!)">
+        <source>Automatic Notation (Because you have better things to do!)</source>
+        <target>Notation Automatique (Car vous avez mieux a faire !)</target>
+      </trans-unit>
+      <trans-unit id="UDgE6um" resname="Real-time activity monitoring (To ensure that their brain formatting runs smoothly)">
+        <source>Real-time activity monitoring (To ensure that their brain formatting runs smoothly)</source>
+        <target>Suivi d'activité en temps réel (Pour vous assurez du bon déroulement de leur formattage cérébrale)</target>
+      </trans-unit>
+      <trans-unit id=".pA4qQs" resname="Accessible even on a Smartphone to be able to test them everywhere!">
+        <source>Accessible even on a Smartphone to be able to test them everywhere!</source>
+        <target>Accessible meme sur un Smartphone pour pouvoir les tester partout !</target>
+      </trans-unit>
+      <trans-unit id="ujbpENx" resname="Join us now -&gt;">
+        <source>Join us now -&gt;</source>
+        <target><![CDATA[Rejoignez Nous ->]]></target>
       </trans-unit>
     </body>
   </file>

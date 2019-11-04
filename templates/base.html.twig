@@ -16,7 +16,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #28a745;">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="{{ path('login') }}">SlamQuizz</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,13 +24,10 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">{% trans %}Home {% endtrans %}<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ path('index') }}">{% trans %}Home {% endtrans %}<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ path('category_index') }}">{% trans %}Category{% endtrans %}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">{% trans %}Disabled{% endtrans %}</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -51,9 +48,6 @@
         <main role="main" class="container">
 
         <div class="starter-template">
-            <h1>{% trans %}Welcome !{% endtrans %}</h1>
-            <p class="lead">{% trans %}On comprend pas tout, mais en tout cas ça fonctionne.°^°)/  07/10/2019 Florian MORTREUX{% endtrans %}
-            </p>
             {% block body %}{% endblock %}
         </div>
 

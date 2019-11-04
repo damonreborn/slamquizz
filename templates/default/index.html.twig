@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}{% trans %}You should not be here!{% endtrans %}{% endblock %}
+{% block title %}SlamQuizz{% endblock %}
 
 {% block body %}
 <style>
@@ -8,17 +8,19 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-<div class="example-wrapper">
-    <h1>{% trans %}Hello {% endtrans %}{{ controller_name }}! ✅</h1>
-
-    {% trans %}This friendly message is coming from:{% endtrans %}
+<div class="jumbotron"> 
+    <h2>{% trans %}Do you need to check the Instruction Index and the Intelligence level of your students?{% endtrans %}</h2>
+    {% trans %}This is the tool you need! SlamQuizz is a simple and free online QCM software.{% endtrans %}
+    <hr/>
+    <h2>{% trans %}Feature{% endtrans %}</h2>
     <ul>
-        <li>{% trans %}Your controller at{% endtrans %} <code><a href="{{ 'C:/wamp64/www/slamquizz/src/Controller/DefaultController.php'|file_link(0) }}">src/Controller/DefaultController.php</a></code></li>
-        <li>{% trans %}Your template at{% endtrans %} <code><a href="{{ 'C:/wamp64/www/slamquizz/templates/default/index.html.twig'|file_link(0) }}">templates/default/index.html.twig</a></code></li>
-        <button class="btn btn-outline-success">Se connecter</button>
+        <li>{% trans %}Interactive and motivating content to teach them the joy of "Learning"{% endtrans %}</li>
+        <li>{% trans %}Automatic Notation (Because you have better things to do!){% endtrans %}</li>
+        <li>{% trans %}Real-time activity monitoring (To ensure that their brain formatting runs smoothly){% endtrans %}</li>
+        <li>{% trans %}Accessible even on a Smartphone to be able to test them everywhere!{% endtrans %}</li>
     </ul>
-    <ul>
-        <li><a href="{{ url('index_user') }}">{% trans %}Users List{% endtrans %}</li>
-    </ul>
+    License CC BY-SA
+    <hr/>
+    <a class="btn btn-outline-success" href="{{ path('login') }}">{% trans %}Join us now ->{% endtrans %}</a>
 </div>
 {% endblock %}

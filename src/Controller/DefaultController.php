@@ -35,4 +35,13 @@ class DefaultController extends AbstractController
             'users_list' => $usersList,
         ]);
 }
+    /**
+     * @Route("/login", name="login")
+    */
+    public function login()
+    {
+        return $this->render('default/login.html.twig', [
+            'controller_name' => 'DefaultController',
+        ]);
+    }
 }
