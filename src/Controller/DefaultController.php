@@ -36,7 +36,7 @@ class DefaultController extends AbstractController
         ]);
 }
     /**
-     * @Route("/login", name="login")
+     * @Route("/login2", name="login2")
     */
     public function login()
     {
