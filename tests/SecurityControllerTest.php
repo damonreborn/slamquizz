@@ -54,4 +54,21 @@ class SecurityControllerTest extends WebTestCase
         );
         
     }
+
+     /**
+     * Verify that the category list is not displayed to users who do not have the admin role
+     */
+    public function testNotShowCategory()
+    {
+        // Request /category 
+        $this->client->request('GET', '/category');
+
+        // Asserts that category path move to another path (login)
+        $this->assertTrue(
+            $this->client->getResponse()->isRedirect('/login'));
+        
+        // Vérifie que le code HTTP renvoyé est "302" ou "HTTP_FOUND". 
+        // $this->assertEquals(Response::HTTP_FOUND, $this->client->getResponse()->getStatusCode());
+        
+    }
 }
