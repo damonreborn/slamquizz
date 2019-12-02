@@ -21,8 +21,10 @@
                 <td>{{ category.shortname }}</td>
                 <td>{{ category.longname }}</td>
                 <td>
-                    <a class="btn btn-outline-success fa fa-eye" href="{{ path('category_show', {'id': category.id}) }}"></a>
-                    <a class="btn btn-outline-success fa fa-pencil" href="{{ path('category_edit', {'id': category.id}) }}"></a>
+                    {% if is_granted('ROLE_ADMIN') %}   
+                        <a class="btn btn-outline-success fa fa-eye" href="{{ path('category_show', {'id': category.id}) }}"></a>
+                        <a class="btn btn-outline-success fa fa-pencil" href="{{ path('category_edit', {'id': category.id}) }}"></a>
+                    {% endif %}
                 </td>
             </tr>
         {% else %}
@@ -32,6 +34,7 @@
         {% endfor %}
         </tbody>
     </table>
-
-    <a  class="btn btn-outline-success" href="{{ path('category_new') }}">{% trans %}Create new{% endtrans %}</a>
+    {% if is_granted('ROLE_ADMIN') %} 
+        <a  class="btn btn-outline-success" href="{{ path('category_new') }}">{% trans %}Create new{% endtrans %}</a>
+    {% endif %}
 {% endblock %}
