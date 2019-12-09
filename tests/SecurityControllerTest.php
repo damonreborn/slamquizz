@@ -117,4 +117,4 @@ class SecurityControllerTest extends WebTestCase
         // Asserts that the response content contains 'Create new category' in 'h1' tag
         $this->assertSelectorTextContains('html body h1', 'Create new Category');
     }
-    }
+}

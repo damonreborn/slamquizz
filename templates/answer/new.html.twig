@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}New Answer{% endtrans %}{% endblock %}
+
+{% block body %}
+    <h1>{% trans %}Create new Answer{% endtrans %}</h1>
+
+    {{ include('answer/_form.html.twig') }}
+
+    <a class="btn btn-outline-success" href="{{ path('answer_index') }}">{% trans %}back to list{% endtrans %}</a>
+{% endblock %}

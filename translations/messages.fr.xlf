@@ -145,6 +145,38 @@
         <source>Join us now -&gt;</source>
         <target><![CDATA[Rejoignez Nous ->]]></target>
       </trans-unit>
+      <trans-unit id="nVRn3MP" resname="Edit Answer">
+        <source>Edit Answer</source>
+        <target>Modifier Réponses</target>
+      </trans-unit>
+      <trans-unit id="VSfIL5D" resname="Answer index">
+        <source>Answer index</source>
+        <target>Liste Réponses</target>
+      </trans-unit>
+      <trans-unit id="n8b.YPP" resname="New Answer">
+        <source>New Answer</source>
+        <target>Nouvelle Réponse</target>
+      </trans-unit>
+      <trans-unit id="qBTARCG" resname="Create new Answer">
+        <source>Create new Answer</source>
+        <target>Créer une nouvelle réponse</target>
+      </trans-unit>
+      <trans-unit id="sqOqYCd" resname="Answer">
+        <source>Answer</source>
+        <target>Réponse</target>
+      </trans-unit>
+      <trans-unit id="REE8PZe" resname="Are you sure you want to delete this item?">
+        <source>Are you sure you want to delete this item?</source>
+        <target>Confirmer la Supression ?</target>
+      </trans-unit>
+      <trans-unit id="4tClytd" resname="Update">
+        <source>Update</source>
+        <target>Mettre a Jour</target>
+      </trans-unit>
+      <trans-unit id="4tClytw" resname="Correct">
+        <source>Correct</source>
+        <target>Corrigé</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
