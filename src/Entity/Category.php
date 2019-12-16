@@ -17,7 +17,6 @@ class Category
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue(strategy="SEQUENCE")
-     * @ORM\SequenceGenerator(sequenceName="schema._id_seq", allocationSize=1, initialValue=1)
      */
     private $id;
 
