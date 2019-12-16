@@ -4,10 +4,19 @@ php:
   - 7.3.5
 
 services:
-  - postgresql: "12"
+  - postgresql: "12.0"
+
+addons:
+  postgresql: "12.0"
+  apt:
+    packages:
+    - postgresql-12
+    - postgresql-client-12
+  
 
 env:
   - SYMFONY_VERSION=4.3.*
+  - PGPORT=5433
 
 before_script:
   - composer install
