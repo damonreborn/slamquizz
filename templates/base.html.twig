@@ -24,24 +24,25 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="{{ path('index') }}">{% trans %}Home {% endtrans %}<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ path('index') }}">{% trans %}Home{% endtrans %}<span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">{% trans %}Result{% endtrans %}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">{% trans %}Questionary{% endtrans %}</a>
+                    </li>
+                    
                     {% if is_granted('ROLE_ADMIN') %}  
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ path('category_index') }}">{% trans %}Category{% endtrans %}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ path('answer_index') }}">{% trans %}Answer{% endtrans %}</a>
-                    </li>
-                    {% endif %}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">{% trans %}Action{% endtrans %}</a>
-                            <a class="dropdown-item" href="#">{% trans %}Another action{% endtrans %}</a>
-                            <a class="dropdown-item" href="#">{% trans %}Something else here{% endtrans %}</a>
+                            <a class="dropdown-item" href="{{ path('category_index') }}">{% trans %}Category{% endtrans %}</a>
+                            <a class="dropdown-item" href="{{ path('answer_index') }}">{% trans %}Answer{% endtrans %}</a>
+                            <a class="dropdown-item" href="#">{% trans %}Question{% endtrans %}</a>
                         </div>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
         </nav>
