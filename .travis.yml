@@ -15,7 +15,7 @@ before_script:
   - psql -c "CREATE ROLE slamquizz password 'i62o6CORckuM3ofQ' login;" -U postgres
   - psql -c "GRANT ALL ON DATABASE slamquizz TO slamquizz WITH GRANT OPTION;" -U postgres
   - php bin/console doctrine:migrations:migrate -n
-  - php bin/console doctrine:fixtures:load -n
+  #- php bin/console doctrine:fixtures:load -n
   
 script:
   - php bin/phpunit
