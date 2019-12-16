@@ -16,7 +16,7 @@ addons:
 
 env:
   - SYMFONY_VERSION=4.3.*
-  - PGPORT=5433
+  - PGPORT=5432
 
 before_script:
   - composer install
