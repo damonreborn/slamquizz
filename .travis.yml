@@ -4,7 +4,7 @@ php:
   - 7.3.5
 
 services:
-  - postgresql
+  - postgresql: "12"
 
 env:
   - SYMFONY_VERSION=4.3.*
