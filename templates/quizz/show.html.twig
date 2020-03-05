@@ -24,16 +24,16 @@
                 <td>{{ quizz.numberOfQuestions }}</td>
             </tr>
             <tr>
+                <th>Catégories</th>
+                <td>
+                    {% for categorie in quizz.categories %}
+                    {{ categorie.shortname}}
+                    {% endfor %}
+                </td>
+            </tr>
+            <tr>
                 <th>Active</th>
                 <td>{{ quizz.active ? 'Yes' : 'No' }}</td>
-            </tr>
-            <tr>
-                <th>Created_at</th>
-                <td>{{ quizz.createdAt ? quizz.createdAt|date('Y-m-d H:i:s') : '' }}</td>
-            </tr>
-            <tr>
-                <th>Updated_at</th>
-                <td>{{ quizz.updatedAt ? quizz.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
             </tr>
         </tbody>
     </table>

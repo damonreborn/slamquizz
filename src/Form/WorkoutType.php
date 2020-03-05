@@ -2,29 +2,30 @@
 
 namespace App\Form;
 
-use App\Entity\Answer;
+use App\Entity\Workout;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class AnswerType extends AbstractType
+class WorkoutType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('Text', null, 
-                array(
-                    'label' => false,
-                )
-            )
-            ->add('Correct')
+            ->add('started_at')
+            ->add('ended_at')
+            ->add('current_question_number')
+            ->add('last_question_id')
+            ->add('completed')
+            ->add('score')
+            ->add('quizz')
         ;
     }
 
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => Answer::class,
+            'data_class' => Workout::class,
         ]);
     }
 }

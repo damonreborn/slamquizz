@@ -22,8 +22,8 @@
             <tr>
                 <th>Questionnaires</th>
                 <td>
-                    {% for category in quizz.categories %}
-                    {{ category.text }}
+                    {% for quizzes in category.quizzes %}
+                    {{ quizzes.title }}
                     {% endfor %}
                 </td>
             </tr>
