@@ -33,6 +33,7 @@
                 <td>
                     <a class="btn btn-outline-success fa fa-eye" href="{{ path('quizz_show', {'id': quizz.id}) }}"></a>
                     <a class="btn btn-outline-success fa fa-pencil" href="{{ path('quizz_edit', {'id': quizz.id}) }}"></a>
+                    <a class="btn btn-outline-success fa fa-play-circle" href="{{ path('workout_new', {'id': quizz.id}) }}"></a>
                 </td>
             </tr>
         {% else %}

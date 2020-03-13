@@ -28,7 +28,7 @@ class WorkoutController extends AbstractController
     }
 
     /**
-     * @Route("/new", name="workout_new", methods={"GET","POST"})
+     * @Route("/{id}/new", name="workout_new", methods={"GET","POST"})
      */
     public function new(Request $request, int $id, EntityManagerInterface $em): Response
     {
